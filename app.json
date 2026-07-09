@@ -1,0 +1,37 @@
+{
+  "name": "fitbod",
+  "displayName": "FitBod",
+  "version": "1.0.0",
+  "description": "AI-powered fitness platform with adaptive training algorithms",
+  "expo": {
+    "name": "FitBod",
+    "slug": "fitbod",
+    "version": "1.0.0",
+    "scheme": "fitbod",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow FitBod to access your camera for form detection"
+        }
+      ]
+    ]
+  }
+}
